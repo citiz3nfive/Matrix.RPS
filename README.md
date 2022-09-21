@@ -1,4 +1,4 @@
-# MatrixRPS
+# Matrix.RPS
 
 "This program will simulate the game of Rock, Paper, Scissors but with the theme of the movie "The Matrix..."
 
