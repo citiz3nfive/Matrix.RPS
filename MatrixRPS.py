@@ -77,14 +77,14 @@ class Game:
         
         if self.beats(move1, move2):
             self.score_p1 += 1
-            winner = '>>>> Neo Wins <<<<'
+            winner = '>>>> Neo Wins! <<<<'
         elif move1 == move2:
             self.score_p1 = self.score_p1
             self.score_p2 = self.score_p2
             winner = '>>>> Tie <<<<'
         else:
             self.score_p2 += 1
-            winner = '>>>> Agent Smith Wins <<<<'
+            winner = '>>>> Agent Smith Wins! <<<<'
         
         print(
             f"> Neo played : {move1}"
