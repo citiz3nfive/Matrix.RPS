@@ -5,9 +5,10 @@ from colorama import Fore
 colorama.init()
 print(Fore.GREEN)
 
-"""This program will simulate the game of Rock, Paper, Scissors but with theme of the movie "The Matrix..." """
+"""My python program will simulate the game of Rock, Paper, Scissors but with theme of the movie "The Matrix..." Hope you enjoy. """
 
 class Player:
+
     moves = ['rock', 'paper', 'scissors']
 
     def __init__(self):
