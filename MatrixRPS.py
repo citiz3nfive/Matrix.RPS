@@ -112,14 +112,14 @@ class Game:
             )
         elif self.score_p1 > self.score_p2:
             print(
-                f"\n>>>>YOU DID IT NEO YOU WON, YOU'RE BEGGINING TO BELEIVE<<<<"
+                f"\n>>>>YOU DID IT NEO YOU WON, YOU'RE BEGGINING TO BELEIVE!<<<<"
                 f"\nThe Matrix has you..."
                 f"\nScore: Neo ( {self.score_p1} )*,"
                 f"Agent Smith ( {self.score_p2} )"
             )
         else:
             print(
-                f"\n>>>>AGENT SMITH HAS WON<<<<"
+                f"\n>>>>AGENT SMITH HAS WON!<<<<"
                 f"\n>>>>ACCESS TO THE MATRIX IS DENIED!<<<<"
                 f"\nScore: Neo ( {self.score_p1} ),"
                 f"Agent Smith ( {self.score_p2} )*"
